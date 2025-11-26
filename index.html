@@ -1,13 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jaquelin</title>
+    <title>Jaquelin Guadalupe Tut Ek - Programación y Redes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-    <h1>jaquelin guadalupe tut ek</h1>
-    <p>sistemas</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">JTE</div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="Jaquelin Guadalupe Tut Ek">Jaquelin Guadalupe Tut Ek</h1>
+                <p class="subtitle">Especialista en Programación y Redes</p>
+                <p class="description">Construyendo el futuro digital a través de código y conexiones</p>
+                <div class="cta-buttons">
+                    <a href="#contacto" class="btn btn-primary">Contáctame</a>
+                    <a href="#sobre-mi" class="btn btn-secondary">Conoce más</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="80" fill="#667eea" opacity="0.1"/>
+                            <text x="100" y="100" text-anchor="middle" dominant-baseline="middle" 
+                                  font-size="60" fill="#667eea" font-family="Poppins, sans-serif" font-weight="600">JTE</text>
+                        </svg>
+                        <p class="image-note">Agrega tu fotografía profesional aquí</p>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="float-element element-1">💻</div>
+                    <div class="float-element element-2">🌐</div>
+                    <div class="float-element element-3">⚡</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="bg-shape shape-1"></div>
+            <div class="bg-shape shape-2"></div>
+            <div class="bg-shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="card-icon">👩‍💻</div>
+                    <h3>Perfil Profesional</h3>
+                    <p>Soy <strong>Jaquelin Guadalupe Tut Ek</strong>, una profesional apasionada por la tecnología, 
+                    especializada en el estudio de programación y redes. Mi enfoque está en crear soluciones 
+                    innovadoras y mantener sistemas de comunicación eficientes.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Experiencia</h3>
+                    <p>Cuento con <strong>un año de experiencia práctica en redes</strong>, donde he desarrollado 
+                    habilidades en configuración, administración y resolución de problemas de infraestructura de red. 
+                    Mi experiencia me ha permitido comprender los desafíos reales de la conectividad empresarial.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Enfoque</h3>
+                    <p>Me dedico al aprendizaje continuo en programación y tecnologías de red, manteniéndome 
+                    actualizada con las últimas tendencias y mejores prácticas de la industria. Mi objetivo es 
+                    crear soluciones que optimicen la comunicación y el rendimiento de los sistemas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>🌐 Redes</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">Configuración de Redes</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Protocolos TCP/IP</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Administración de Redes</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 72%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Resolución de Problemas</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>💻 Programación</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">Desarrollo Web</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Scripts de Automatización</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 68%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Bases de Datos</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Aprendizaje Continuo</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Conectemos</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Interesado en colaborar?</h3>
+                    <p>Estoy disponible para proyectos freelance, oportunidades de colaboración y 
+                    consultas sobre programación y redes.</p>
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>jaquelin.tutek@email.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">💼</div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/jaquelin-tutek</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🐙</div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/jaquelin-tutek</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Jaquelin Guadalupe Tut Ek. Todos los derechos reservados.</p>
+            <p class="footer-tagline">Construyendo conexiones digitales 🌐</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
