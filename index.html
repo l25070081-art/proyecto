@@ -216,6 +216,23 @@
         </div>
     </footer>
 
+    <!-- Chatbot Assistant -->
+    <div class="chatbot-widget">
+        <div class="chatbot-header">
+            <div class="chatbot-title-container">
+                <span class="chatbot-icon">🤖</span>
+                <h3 class="chatbot-title">Asistente IA</h3>
+            </div>
+            <button class="chatbot-close" aria-label="Cerrar chat">✕</button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages"></div>
+        <div class="chatbot-input-container">
+            <input type="text" id="chatbotInput" class="chatbot-input" placeholder="Escribe tu pregunta..." />
+            <button class="chatbot-send" id="chatbotSend" aria-label="Enviar">➤</button>
+        </div>
+    </div>
+    <button class="chatbot-toggle" id="chatbotToggle" title="Abrir chat">💬</button>
+
     <script src="script.js"></script>
 </body>
 </html>
